@@ -1,0 +1,12 @@
+{
+  "name": "typescript_test",
+  "version": "1.0.0",
+  "description": "Examining typescript",
+  "main": "index.js",
+  "author": "George Richards",
+  "license": "MIT",
+  "devDependencies": {
+    "tslint": "^5.9.1",
+    "typescript": "^2.8.3"
+  }
+}
