@@ -1,7 +1,17 @@
-const greeter = (person: string) => {
+interface Person {
+  firstName: string;
+  lastName: string;
+}
+
+const greeter = (person: Person) => {
   return `Hello, ${person}`;
 };
 
-let user = 'George';
+let user = {
+  firstName: 'George',
+  lastName: 'User'
+};
 
 console.log(greeter(user));
+
+export {}; // removes tslint error
